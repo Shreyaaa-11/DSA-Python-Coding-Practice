@@ -1,6 +1,5 @@
-# DSA---Python-Problems
 
-##🧠 Daily Coding Practice
+## 🧠 Daily Coding Practice
 
 Welcome to my personal repository where I solve **daily coding problems** to stay sharp, consistent, and always learning. This space is my digital journal of progress, discipline, and problem-solving growth.
 
