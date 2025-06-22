@@ -1,0 +1,25 @@
+Approach: Counting Sort (3-pass method) - Better Approach
+This method counts how many 0s, 1s, and 2s are in the list, and then overwrites the list with the correct number of each, in order.
+
+✨ Step-by-Step:
+First loop: Count how many 0s, 1s, and 2s are present using three counters:
+count0, count1, and count2.
+
+Second phase: Overwrite the nums list using while loop.
+
+Fill in count0 times 0
+Then count1 times 1
+Then count2 times 2
+
+Approach: Dutch National Flag Algorithm - Optimal Approach
+The Dutch National Flag Algorithm is used to sort an array with three distinct elements (like 0, 1, and 2) into three separate groups. It's named after the Dutch flag, which has three colors.
+
+It uses three pointers:
+low – marks the boundary for 0s,
+mid – the current element being checked,
+high – marks the boundary for 2s.
+
+Loop while mid <= high:
+If arr[mid] == 0: swap arr[low] and arr[mid], increment both.
+If arr[mid] == 1: just increment mid.
+If arr[mid] == 2: swap arr[mid] and arr[high], decrement high.
